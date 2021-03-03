@@ -21,4 +21,7 @@ You can use `DROP DATABASE <name_of_db>;` command to delete or drop a database.
 **Note: If you don't use `;` it will not execute the command in `mysql`.**
 
 ## `USE` Command in `MYSQL`
-`USE <db_name>` command allows you to choose a database you want to work with and you can switch back and forth  databases using the `USE` command in `mysql`.
+`USE <db_name>;` command allows you to choose a database you want to work with and you can switch back and forth  databases using the `USE` command in `mysql`
+
+In order to see what database you are in you can use the following command 
+`SELECT database();`
