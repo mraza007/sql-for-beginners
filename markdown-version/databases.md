@@ -1,4 +1,4 @@
-# Creating Databases and Tables
+# Creating Databases
 When you start `mysql service` it starts mysql database server and within that server you can have individual `databases` as show in a diagram.
 
 ![](../images/mysql.png)
