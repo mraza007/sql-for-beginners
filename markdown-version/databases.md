@@ -15,10 +15,14 @@ For Example, `CREATE DATABASE hello world;` -> this is not acceptable you can do
 
 **Note: You don't have to use capitalized commands you can write commands in lowercase but it just signifies and its more like a convention.**
 
+
+
 ## Dropping Databases in `MYSQL`
 You can use `DROP DATABASE <name_of_db>;` command to delete or drop a database.
 
 **Note: If you don't use `;` it will not execute the command in `mysql`.**
+
+
 
 ## `USE` Command in `MYSQL`
 `USE <db_name>;` command allows you to choose a database you want to work with and you can switch back and forth  databases using the `USE` command in `mysql`
