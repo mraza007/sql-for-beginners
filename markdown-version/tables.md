@@ -78,3 +78,9 @@ CREATE TABLE tweets (
 ```
 
 In order to check the tables you have created you can use `SHOW TABLES;` and to see a table in detail you can use `SHOW COLUMNS FROM <table_name>;` or you can use shorter command `DESC <table_name>;`
+
+
+## Deleting Tables
+
+In order delete a table from a database we can use the following command
+`DROP TABLE <table_name>`
