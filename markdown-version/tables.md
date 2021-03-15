@@ -55,3 +55,26 @@ I will mostly be focusing on `INT` and `VARCHAR`. `INT` represents a whole numbe
 ### Example `Tweets` Table with Data Types
 
 ![](../images/image-sql.png)
+
+## Creating tables
+
+```sql
+CREATE TABLE <table_name> 
+(
+    <column_name>  <data_type>,
+    <column_name>  <data_type>
+    )
+```
+
+For example we can create a `tweets` table using sql syntax.
+
+```sql
+CREATE TABLE tweets (
+    username VARCHAR(15),
+    content_tweet VARCHAR(140),
+    favorites INT
+)
+
+```
+
+In order to check the tables you have created you can use `SHOW TABLES;` and to see a table in detail you can use `SHOW COLUMNS FROM <table_name>;` or you can use shorter command `DESC <table_name>;`
