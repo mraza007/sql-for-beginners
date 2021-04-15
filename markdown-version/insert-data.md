@@ -61,3 +61,5 @@ MariaDB [colt_test]> select * from cats;
 4 rows in set (0.001 sec)
 
 ```
+
+_Note: Use SHOW WARNINGS; to see the warning_
