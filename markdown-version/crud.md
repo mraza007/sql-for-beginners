@@ -1,6 +1,6 @@
 CRUD(CREATE, READ, UPDATE, DELETE)
 
-# READ
+#### READ
 How do we retrieve and search data from the database. We use `SELECT` command.
 
 - `SELECT * FROM <table>` means display all the elements from the table.
@@ -61,4 +61,8 @@ How to delete in SQL Database.
 ```sql
 DELETE FROM employee WHERE name='john'
 ```
+Deleting all the entries in the table
 
+```sql
+DELETE FROM <table_name>
+```
