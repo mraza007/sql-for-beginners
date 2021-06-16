@@ -72,8 +72,8 @@ SELECT CHAR_LENGTH(title) from books;
 
 ### LOWER & UPPER
 
-UPPER --> allows you to uppercase a word
-LOWER --> allows you to lowercase a word
+- UPPER --> allows you to uppercase a word
+- LOWER --> allows you to lowercase a word
 
 ```sql
 
