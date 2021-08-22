@@ -81,3 +81,5 @@ SELECT UPPER(title) from books;
 
 SELECT LOWER(title) from books;
 ```
+
+**NOTE:`--` In order to comment a query in SQL**
